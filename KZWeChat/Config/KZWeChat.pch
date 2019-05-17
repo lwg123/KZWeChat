@@ -1,0 +1,37 @@
+//
+//  KZWeChat.pch
+//  KZWeChat
+//
+//  Created by weiguang on 2019/4/8.
+//  Copyright © 2019 duia. All rights reserved.
+//
+
+#ifndef KZWeChat_pch
+#define KZWeChat_pch
+
+#import <UIKit/UIKit.h>
+#import "KZURLMacros.h"
+#import "KZUtilsMacros.h"
+#import "KZCommonMacros.h"
+#import "UIView+Frame.h"
+#import "KZUtils.h"
+#import "AppDelegate.h"
+#import "UIView+Toast.h"
+#import "KZBaseViewController.h"
+#import <AFNetworking.h>
+#import "KZPTextFieldView.h"
+#import "UIImage+Utils.h"
+#import "UIColor+Utils.h"
+#import "KZAppManager.h"
+#import "KZNetworkManager.h"
+#import "EncryptionTools.h"
+#import "KZUser.h"
+#import <SDWebImage.h>
+#import "NSDate+Utils.h"
+#import <YYCategories.h>
+#import <Masonry.h>
+#import <SVProgressHUD.h>
+#import "UIButton+ButtonClick.h"
+
+
+#endif /* KZWeChat_pch */

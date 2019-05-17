@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D101D73D225AFCE100573382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D73C225AFCE100573382 /* AppDelegate.m */; };
+		D101D740225AFCE100573382 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D73F225AFCE100573382 /* ViewController.m */; };
+		D101D743225AFCE100573382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D101D741225AFCE100573382 /* Main.storyboard */; };
+		D101D745225AFCE200573382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D101D744225AFCE200573382 /* Assets.xcassets */; };
+		D101D748225AFCE200573382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D101D746225AFCE200573382 /* LaunchScreen.storyboard */; };
+		D101D74B225AFCE200573382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D74A225AFCE200573382 /* main.m */; };
+		D101D758225B19DF00573382 /* KZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D757225B19DF00573382 /* KZLoginViewController.m */; };
+		D101D75C225B1C6F00573382 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D75A225B1C6F00573382 /* UIView+Frame.m */; };
+		D101D762225B324800573382 /* KZRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D761225B324800573382 /* KZRegisterController.m */; };
+		D101D766225B414F00573382 /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D764225B414F00573382 /* AuthcodeView.m */; };
+		D101D76A225B499000573382 /* KZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D101D769225B499000573382 /* KZUtils.m */; };
+		D10E26F3225D929600588B9D /* KZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10E26F2225D929600588B9D /* KZSettingViewController.m */; };
+		D10E26F6225D9BFD00588B9D /* KZChangePasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D10E26F5225D9BFD00588B9D /* KZChangePasswordVC.m */; };
+		D10E26F9225D9DA600588B9D /* KZSuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10E26F8225D9DA600588B9D /* KZSuggestViewController.m */; };
+		D10E26FC225D9E5000588B9D /* KZAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10E26FB225D9E5000588B9D /* KZAboutViewController.m */; };
+		D10E2700225D9F5700588B9D /* KZMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10E26FF225D9F5700588B9D /* KZMessageController.m */; };
+		D10E2703225DB90D00588B9D /* KZRecordBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D10E2702225DB90D00588B9D /* KZRecordBtn.m */; };
+		D13A70BF2273D84700C04CCA /* KZChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13A70BD2273D84600C04CCA /* KZChatViewController.m */; };
+		D13A70C12273D88700C04CCA /* KZChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D13A70C02273D88700C04CCA /* KZChatViewController.xib */; };
+		D13A70C42273F4E200C04CCA /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = D13A70C22273F4E100C04CCA /* other.png */; };
+		D13A70C52273F4E200C04CCA /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = D13A70C32273F4E100C04CCA /* me.png */; };
+		D13A70C82273FB7C00C04CCA /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = D13A70C62273FB7C00C04CCA /* w.png */; };
+		D13A70C92273FB7C00C04CCA /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = D13A70C72273FB7C00C04CCA /* m.png */; };
+		D13D66FF2271F2B900E7F4C8 /* KZCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D13D66FE2271F2B900E7F4C8 /* KZCardView.m */; };
+		D13E802222732D3F00DE7BDE /* tanchuang.png in Resources */ = {isa = PBXBuildFile; fileRef = D13E802122732D3F00DE7BDE /* tanchuang.png */; };
+		D13E802B22735D9B00DE7BDE /* UIImage+Han.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E802822735D9A00DE7BDE /* UIImage+Han.m */; };
+		D13E802C22735D9B00DE7BDE /* UILabel+Han.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E802A22735D9B00DE7BDE /* UILabel+Han.m */; };
+		D13E803B22735DC400DE7BDE /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = D13E802E22735DC300DE7BDE /* other.png */; };
+		D13E803C22735DC400DE7BDE /* CSMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E802F22735DC300DE7BDE /* CSMessageModel.m */; };
+		D13E803D22735DC400DE7BDE /* EmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E803322735DC300DE7BDE /* EmojiView.m */; };
+		D13E803E22735DC400DE7BDE /* CSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E803422735DC300DE7BDE /* CSRecord.m */; };
+		D13E803F22735DC400DE7BDE /* CSBigView.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E803522735DC300DE7BDE /* CSBigView.m */; };
+		D13E804022735DC400DE7BDE /* CSMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E803622735DC300DE7BDE /* CSMessageCell.m */; };
+		D13E804122735DC400DE7BDE /* CSEmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E803A22735DC400DE7BDE /* CSEmojiCollectionViewCell.m */; };
+		D13E804322735DD600DE7BDE /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = D13E804222735DD600DE7BDE /* me.png */; };
+		D13E9739226C20620073CC6D /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E9738226C20620073CC6D /* EncryptionTools.m */; };
+		D13E973C226C38B70073CC6D /* KZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D13E973B226C38B70073CC6D /* KZUser.m */; };
+		D13F138A225B85FA003010A1 /* KZMatchingHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = D13F1389225B85FA003010A1 /* KZMatchingHallController.m */; };
+		D14095372269ACC300203D8F /* KZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D14095352269ACC200203D8F /* KZNetworkManager.m */; };
+		D14146E3226AEC7700FEFCF8 /* KZAgreementController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14146E2226AEC7700FEFCF8 /* KZAgreementController.m */; };
+		D14146E6226AEDF600FEFCF8 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D14146E4226AEDF600FEFCF8 /* UIImage+Utils.m */; };
+		D14146E9226AEE4D00FEFCF8 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D14146E8226AEE4D00FEFCF8 /* UIColor+Utils.m */; };
+		D14146F2226AF50F00FEFCF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D14146F4226AF50F00FEFCF8 /* InfoPlist.strings */; };
+		D14146F9226AF6EE00FEFCF8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D14146FB226AF6EE00FEFCF8 /* Localizable.strings */; };
+		D1414700226B0C7D00FEFCF8 /* KZAppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D14146FF226B0C7D00FEFCF8 /* KZAppManager.m */; };
+		D1414704226B0CBE00FEFCF8 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1414702226B0CBE00FEFCF8 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1416142226A139000B4345C /* KZPTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1416140226A139000B4345C /* KZPTextFieldView.m */; };
+		D145294F2272A4F800FBF7D0 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D145294E2272A4F800FBF7D0 /* libresolv.9.tbd */; };
+		D14529552272D2AC00FBF7D0 /* UIButton+ButtonClick.m in Sources */ = {isa = PBXBuildFile; fileRef = D14529542272D2AC00FBF7D0 /* UIButton+ButtonClick.m */; };
+		D14978232263167200FDC569 /* KZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D14978222263167200FDC569 /* KZBaseViewController.m */; };
+		D14A25B422700E240010F6BD /* SexPickerTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14A25AF22700E240010F6BD /* SexPickerTool.xib */; };
+		D14A25B522700E240010F6BD /* DatePickerTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14A25B122700E240010F6BD /* DatePickerTool.xib */; };
+		D14A25B622700E240010F6BD /* DatePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D14A25B222700E240010F6BD /* DatePickerTool.m */; };
+		D14A25B722700E240010F6BD /* SexPickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D14A25B322700E240010F6BD /* SexPickerTool.m */; };
+		D1869B4C2270667E000FF623 /* YZChatToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1869B492270667E000FF623 /* YZChatToolBarView.m */; };
+		D1E1F43A226EA45B0048A928 /* KZSuggestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F439226EA45A0048A928 /* KZSuggestViewController.xib */; };
+		D1E1F43E226EED020048A928 /* KZTalkViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F43C226EED020048A928 /* KZTalkViewCell.m */; };
+		D1E1F43F226EED020048A928 /* KZTalkViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F43D226EED020048A928 /* KZTalkViewCell.xib */; };
+		D1E1F453226F0B2F0048A928 /* SenderAppNodeBkg_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F442226F0B2F0048A928 /* SenderAppNodeBkg_HL@2x.png */; };
+		D1E1F454226F0B2F0048A928 /* ReceiverTextNodeBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F443226F0B2F0048A928 /* ReceiverTextNodeBkg.png */; };
+		D1E1F455226F0B2F0048A928 /* ReceiverTextNodeBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F444226F0B2F0048A928 /* ReceiverTextNodeBkg@2x.png */; };
+		D1E1F456226F0B2F0048A928 /* SenderVoiceNodeDownloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F445226F0B2F0048A928 /* SenderVoiceNodeDownloading@2x.png */; };
+		D1E1F457226F0B2F0048A928 /* ReceiverVoiceNodeDownloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F446226F0B2F0048A928 /* ReceiverVoiceNodeDownloading@2x.png */; };
+		D1E1F459226F0B2F0048A928 /* SenderVoiceNodeDownloading.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F448226F0B2F0048A928 /* SenderVoiceNodeDownloading.png */; };
+		D1E1F45B226F0B2F0048A928 /* ReceiverVoiceNodeDownloading.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F44A226F0B2F0048A928 /* ReceiverVoiceNodeDownloading.png */; };
+		D1E1F45F226F0B2F0048A928 /* SenderAppNodeBkg_HL.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E1F44E226F0B2F0048A928 /* SenderAppNodeBkg_HL.png */; };
+		D1E1F465226F1A450048A928 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F463226F1A450048A928 /* NSDate+Utils.m */; };
+		D1E1F468226F37C60048A928 /* ActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F466226F37C60048A928 /* ActionSheetView.m */; };
+		D1E1F46B226F385A0048A928 /* FDCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F469226F385A0048A928 /* FDCameraManager.m */; };
+		D1E1F46E226F3DD10048A928 /* DApickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E1F46D226F3DD10048A928 /* DApickerView.m */; };
+		D1FAA5EE22687056002638BF /* KZChangePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FAA5ED22687056002638BF /* KZChangePasswordVC.xib */; };
+		D1FAA5F222687820002638BF /* KZMeaageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FAA5F122687820002638BF /* KZMeaageCell.m */; };
+		D1FAA5F622689C71002638BF /* KZTalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FAA5F422689C71002638BF /* KZTalkViewController.m */; };
+		D1FAA5F722689C71002638BF /* KZTalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FAA5F522689C71002638BF /* KZTalkViewController.xib */; };
+		D1FAA5FA2268AC13002638BF /* KZBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FAA5F92268AC13002638BF /* KZBannerView.m */; };
+		D1FCCC10225C3BFD0065C5A5 /* KZPersonInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCCC0F225C3BFD0065C5A5 /* KZPersonInfoController.m */; };
+		D1FCCC13225C4A950065C5A5 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCCC12225C4A950065C5A5 /* UIView+Toast.m */; };
+		D1FCCC20225C73A80065C5A5 /* WCLRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCCC1E225C73A80065C5A5 /* WCLRecordProgressView.m */; };
+		D1FCCC28225C73C70065C5A5 /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCCC24225C73C70065C5A5 /* WCLRecordEncoder.m */; };
+		D1FCCC29225C73C70065C5A5 /* WCLRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCCC27225C73C70065C5A5 /* WCLRecordEngine.m */; };
+		D1FCCC2F225C838E0065C5A5 /* KZRecordVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FCCC2D225C838E0065C5A5 /* KZRecordVideoController.m */; };
+		D1FCCC30225C838E0065C5A5 /* KZRecordVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1FCCC2E225C838E0065C5A5 /* KZRecordVideoController.xib */; };
+		F5CA199712E1486C10BD9A32 /* libPods-KZWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9D1AF0AC8A8AE6622EBBA7 /* libPods-KZWeChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B3D18718614E9E16D1A1C66 /* Pods-KZWeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZWeChat.release.xcconfig"; path = "Target Support Files/Pods-KZWeChat/Pods-KZWeChat.release.xcconfig"; sourceTree = "<group>"; };
+		8F9D1AF0AC8A8AE6622EBBA7 /* libPods-KZWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KZWeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A22E56F586D5A4B06B5540F /* Pods-KZWeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZWeChat.debug.xcconfig"; path = "Target Support Files/Pods-KZWeChat/Pods-KZWeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		D101D738225AFCE100573382 /* KZWeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZWeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D101D73B225AFCE100573382 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D101D73C225AFCE100573382 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D101D73E225AFCE100573382 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D101D73F225AFCE100573382 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D101D742225AFCE100573382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D101D744225AFCE200573382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D101D747225AFCE200573382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D101D749225AFCE200573382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D101D74A225AFCE200573382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D101D752225B137600573382 /* KZCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZCommonMacros.h; sourceTree = "<group>"; };
+		D101D753225B137600573382 /* KZUtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUtilsMacros.h; sourceTree = "<group>"; };
+		D101D754225B137600573382 /* KZURLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZURLMacros.h; sourceTree = "<group>"; };
+		D101D755225B148300573382 /* KZWeChat.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZWeChat.pch; sourceTree = "<group>"; };
+		D101D756225B19DF00573382 /* KZLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZLoginViewController.h; sourceTree = "<group>"; };
+		D101D757225B19DF00573382 /* KZLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZLoginViewController.m; sourceTree = "<group>"; };
+		D101D75A225B1C6F00573382 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		D101D75B225B1C6F00573382 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		D101D760225B324800573382 /* KZRegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZRegisterController.h; sourceTree = "<group>"; };
+		D101D761225B324800573382 /* KZRegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZRegisterController.m; sourceTree = "<group>"; };
+		D101D764225B414F00573382 /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
+		D101D765225B414F00573382 /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
+		D101D768225B499000573382 /* KZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUtils.h; sourceTree = "<group>"; };
+		D101D769225B499000573382 /* KZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUtils.m; sourceTree = "<group>"; };
+		D10E26F1225D929600588B9D /* KZSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZSettingViewController.h; sourceTree = "<group>"; };
+		D10E26F2225D929600588B9D /* KZSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZSettingViewController.m; sourceTree = "<group>"; };
+		D10E26F4225D9BFD00588B9D /* KZChangePasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZChangePasswordVC.h; sourceTree = "<group>"; };
+		D10E26F5225D9BFD00588B9D /* KZChangePasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZChangePasswordVC.m; sourceTree = "<group>"; };
+		D10E26F7225D9DA600588B9D /* KZSuggestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZSuggestViewController.h; sourceTree = "<group>"; };
+		D10E26F8225D9DA600588B9D /* KZSuggestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZSuggestViewController.m; sourceTree = "<group>"; };
+		D10E26FA225D9E5000588B9D /* KZAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZAboutViewController.h; sourceTree = "<group>"; };
+		D10E26FB225D9E5000588B9D /* KZAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZAboutViewController.m; sourceTree = "<group>"; };
+		D10E26FE225D9F5700588B9D /* KZMessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZMessageController.h; sourceTree = "<group>"; };
+		D10E26FF225D9F5700588B9D /* KZMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZMessageController.m; sourceTree = "<group>"; };
+		D10E2701225DB90D00588B9D /* KZRecordBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZRecordBtn.h; sourceTree = "<group>"; };
+		D10E2702225DB90D00588B9D /* KZRecordBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZRecordBtn.m; sourceTree = "<group>"; };
+		D13A70BD2273D84600C04CCA /* KZChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZChatViewController.m; sourceTree = "<group>"; };
+		D13A70BE2273D84700C04CCA /* KZChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZChatViewController.h; sourceTree = "<group>"; };
+		D13A70C02273D88700C04CCA /* KZChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KZChatViewController.xib; sourceTree = "<group>"; };
+		D13A70C22273F4E100C04CCA /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		D13A70C32273F4E100C04CCA /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		D13A70C62273FB7C00C04CCA /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w.png; sourceTree = "<group>"; };
+		D13A70C72273FB7C00C04CCA /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+		D13D66FD2271F2B900E7F4C8 /* KZCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZCardView.h; sourceTree = "<group>"; };
+		D13D66FE2271F2B900E7F4C8 /* KZCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZCardView.m; sourceTree = "<group>"; };
+		D13E802122732D3F00DE7BDE /* tanchuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanchuang.png; sourceTree = "<group>"; };
+		D13E802722735D9A00DE7BDE /* UIImage+Han.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Han.h"; sourceTree = "<group>"; };
+		D13E802822735D9A00DE7BDE /* UIImage+Han.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Han.m"; sourceTree = "<group>"; };
+		D13E802922735D9A00DE7BDE /* UILabel+Han.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Han.h"; sourceTree = "<group>"; };
+		D13E802A22735D9B00DE7BDE /* UILabel+Han.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Han.m"; sourceTree = "<group>"; };
+		D13E802D22735DC300DE7BDE /* CSMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMessageCell.h; sourceTree = "<group>"; };
+		D13E802E22735DC300DE7BDE /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		D13E802F22735DC300DE7BDE /* CSMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMessageModel.m; sourceTree = "<group>"; };
+		D13E803022735DC300DE7BDE /* ConstantPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantPart.h; sourceTree = "<group>"; };
+		D13E803122735DC300DE7BDE /* CSMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMessageModel.h; sourceTree = "<group>"; };
+		D13E803222735DC300DE7BDE /* CSBigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBigView.h; sourceTree = "<group>"; };
+		D13E803322735DC300DE7BDE /* EmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiView.m; sourceTree = "<group>"; };
+		D13E803422735DC300DE7BDE /* CSRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRecord.m; sourceTree = "<group>"; };
+		D13E803522735DC300DE7BDE /* CSBigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBigView.m; sourceTree = "<group>"; };
+		D13E803622735DC300DE7BDE /* CSMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMessageCell.m; sourceTree = "<group>"; };
+		D13E803722735DC300DE7BDE /* CSRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRecord.h; sourceTree = "<group>"; };
+		D13E803822735DC300DE7BDE /* CSEmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		D13E803922735DC400DE7BDE /* EmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiView.h; sourceTree = "<group>"; };
+		D13E803A22735DC400DE7BDE /* CSEmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		D13E804222735DD600DE7BDE /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		D13E9737226C20610073CC6D /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		D13E9738226C20620073CC6D /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		D13E973A226C38B70073CC6D /* KZUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZUser.h; sourceTree = "<group>"; };
+		D13E973B226C38B70073CC6D /* KZUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZUser.m; sourceTree = "<group>"; };
+		D13F1388225B85FA003010A1 /* KZMatchingHallController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZMatchingHallController.h; sourceTree = "<group>"; };
+		D13F1389225B85FA003010A1 /* KZMatchingHallController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZMatchingHallController.m; sourceTree = "<group>"; };
+		D14095352269ACC200203D8F /* KZNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZNetworkManager.m; sourceTree = "<group>"; };
+		D14095362269ACC300203D8F /* KZNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZNetworkManager.h; sourceTree = "<group>"; };
+		D14146E1226AEC7700FEFCF8 /* KZAgreementController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZAgreementController.h; sourceTree = "<group>"; };
+		D14146E2226AEC7700FEFCF8 /* KZAgreementController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZAgreementController.m; sourceTree = "<group>"; };
+		D14146E4226AEDF600FEFCF8 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		D14146E5226AEDF600FEFCF8 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		D14146E7226AEE4D00FEFCF8 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		D14146E8226AEE4D00FEFCF8 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		D14146EA226AF37C00FEFCF8 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		D14146EB226AF37C00FEFCF8 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D14146EC226AF3B200FEFCF8 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Main.strings"; sourceTree = "<group>"; };
+		D14146ED226AF3B200FEFCF8 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D14146EE226AF3BB00FEFCF8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D14146EF226AF3BB00FEFCF8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D14146F3226AF50F00FEFCF8 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D14146F5226AF53E00FEFCF8 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D14146F6226AF53F00FEFCF8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D14146FA226AF6EE00FEFCF8 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D14146FC226AF6F300FEFCF8 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D14146FD226AF6F500FEFCF8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D14146FE226B0C7D00FEFCF8 /* KZAppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZAppManager.h; sourceTree = "<group>"; };
+		D14146FF226B0C7D00FEFCF8 /* KZAppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZAppManager.m; sourceTree = "<group>"; };
+		D1414702226B0CBE00FEFCF8 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		D1414703226B0CBE00FEFCF8 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		D1416140226A139000B4345C /* KZPTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZPTextFieldView.m; sourceTree = "<group>"; };
+		D1416141226A139000B4345C /* KZPTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZPTextFieldView.h; sourceTree = "<group>"; };
+		D145294D2272A23B00FBF7D0 /* KZWeChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KZWeChat.entitlements; sourceTree = "<group>"; };
+		D145294E2272A4F800FBF7D0 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		D14529532272D2AB00FBF7D0 /* UIButton+ButtonClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ButtonClick.h"; sourceTree = "<group>"; };
+		D14529542272D2AC00FBF7D0 /* UIButton+ButtonClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ButtonClick.m"; sourceTree = "<group>"; };
+		D14978212263167200FDC569 /* KZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZBaseViewController.h; sourceTree = "<group>"; };
+		D14978222263167200FDC569 /* KZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZBaseViewController.m; sourceTree = "<group>"; };
+		D14A25AE22700E240010F6BD /* DatePickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerTool.h; sourceTree = "<group>"; };
+		D14A25AF22700E240010F6BD /* SexPickerTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SexPickerTool.xib; sourceTree = "<group>"; };
+		D14A25B022700E240010F6BD /* SexPickerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexPickerTool.h; sourceTree = "<group>"; };
+		D14A25B122700E240010F6BD /* DatePickerTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerTool.xib; sourceTree = "<group>"; };
+		D14A25B222700E240010F6BD /* DatePickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerTool.m; sourceTree = "<group>"; };
+		D14A25B322700E240010F6BD /* SexPickerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SexPickerTool.m; sourceTree = "<group>"; };
+		D1869B452270667E000FF623 /* YZChatToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZChatToolBarView.h; sourceTree = "<group>"; };
+		D1869B492270667E000FF623 /* YZChatToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZChatToolBarView.m; sourceTree = "<group>"; };
+		D1E1F439226EA45A0048A928 /* KZSuggestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KZSuggestViewController.xib; sourceTree = "<group>"; };
+		D1E1F43B226EED020048A928 /* KZTalkViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZTalkViewCell.h; sourceTree = "<group>"; };
+		D1E1F43C226EED020048A928 /* KZTalkViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZTalkViewCell.m; sourceTree = "<group>"; };
+		D1E1F43D226EED020048A928 /* KZTalkViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KZTalkViewCell.xib; sourceTree = "<group>"; };
+		D1E1F442226F0B2F0048A928 /* SenderAppNodeBkg_HL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderAppNodeBkg_HL@2x.png"; sourceTree = "<group>"; };
+		D1E1F443226F0B2F0048A928 /* ReceiverTextNodeBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReceiverTextNodeBkg.png; sourceTree = "<group>"; };
+		D1E1F444226F0B2F0048A928 /* ReceiverTextNodeBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverTextNodeBkg@2x.png"; sourceTree = "<group>"; };
+		D1E1F445226F0B2F0048A928 /* SenderVoiceNodeDownloading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SenderVoiceNodeDownloading@2x.png"; sourceTree = "<group>"; };
+		D1E1F446226F0B2F0048A928 /* ReceiverVoiceNodeDownloading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReceiverVoiceNodeDownloading@2x.png"; sourceTree = "<group>"; };
+		D1E1F448226F0B2F0048A928 /* SenderVoiceNodeDownloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SenderVoiceNodeDownloading.png; sourceTree = "<group>"; };
+		D1E1F44A226F0B2F0048A928 /* ReceiverVoiceNodeDownloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReceiverVoiceNodeDownloading.png; sourceTree = "<group>"; };
+		D1E1F44E226F0B2F0048A928 /* SenderAppNodeBkg_HL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SenderAppNodeBkg_HL.png; sourceTree = "<group>"; };
+		D1E1F463226F1A450048A928 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		D1E1F464226F1A450048A928 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		D1E1F466226F37C60048A928 /* ActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetView.m; sourceTree = "<group>"; };
+		D1E1F467226F37C60048A928 /* ActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetView.h; sourceTree = "<group>"; };
+		D1E1F469226F385A0048A928 /* FDCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCameraManager.m; sourceTree = "<group>"; };
+		D1E1F46A226F385A0048A928 /* FDCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCameraManager.h; sourceTree = "<group>"; };
+		D1E1F46C226F3DD10048A928 /* DApickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DApickerView.h; sourceTree = "<group>"; };
+		D1E1F46D226F3DD10048A928 /* DApickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DApickerView.m; sourceTree = "<group>"; };
+		D1FAA5ED22687056002638BF /* KZChangePasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KZChangePasswordVC.xib; sourceTree = "<group>"; };
+		D1FAA5F022687820002638BF /* KZMeaageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZMeaageCell.h; sourceTree = "<group>"; };
+		D1FAA5F122687820002638BF /* KZMeaageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZMeaageCell.m; sourceTree = "<group>"; };
+		D1FAA5F322689C71002638BF /* KZTalkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZTalkViewController.h; sourceTree = "<group>"; };
+		D1FAA5F422689C71002638BF /* KZTalkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZTalkViewController.m; sourceTree = "<group>"; };
+		D1FAA5F522689C71002638BF /* KZTalkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KZTalkViewController.xib; sourceTree = "<group>"; };
+		D1FAA5F82268AC13002638BF /* KZBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZBannerView.h; sourceTree = "<group>"; };
+		D1FAA5F92268AC13002638BF /* KZBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZBannerView.m; sourceTree = "<group>"; };
+		D1FCCC0E225C3BFD0065C5A5 /* KZPersonInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZPersonInfoController.h; sourceTree = "<group>"; };
+		D1FCCC0F225C3BFD0065C5A5 /* KZPersonInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZPersonInfoController.m; sourceTree = "<group>"; };
+		D1FCCC11225C4A950065C5A5 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		D1FCCC12225C4A950065C5A5 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		D1FCCC1E225C73A80065C5A5 /* WCLRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordProgressView.m; sourceTree = "<group>"; };
+		D1FCCC1F225C73A80065C5A5 /* WCLRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordProgressView.h; sourceTree = "<group>"; };
+		D1FCCC23225C73C70065C5A5 /* WCLRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
+		D1FCCC24225C73C70065C5A5 /* WCLRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
+		D1FCCC26225C73C70065C5A5 /* WCLRecordEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEngine.h; sourceTree = "<group>"; };
+		D1FCCC27225C73C70065C5A5 /* WCLRecordEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEngine.m; sourceTree = "<group>"; };
+		D1FCCC2C225C838E0065C5A5 /* KZRecordVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KZRecordVideoController.h; sourceTree = "<group>"; };
+		D1FCCC2D225C838E0065C5A5 /* KZRecordVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZRecordVideoController.m; sourceTree = "<group>"; };
+		D1FCCC2E225C838E0065C5A5 /* KZRecordVideoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KZRecordVideoController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D101D735225AFCE100573382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D145294F2272A4F800FBF7D0 /* libresolv.9.tbd in Frameworks */,
+				F5CA199712E1486C10BD9A32 /* libPods-KZWeChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A27688836E7BF04E7175FC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A22E56F586D5A4B06B5540F /* Pods-KZWeChat.debug.xcconfig */,
+				6B3D18718614E9E16D1A1C66 /* Pods-KZWeChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		113ECB42437DE690917A4134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D145294E2272A4F800FBF7D0 /* libresolv.9.tbd */,
+				8F9D1AF0AC8A8AE6622EBBA7 /* libPods-KZWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D101D72F225AFCE100573382 = {
+			isa = PBXGroup;
+			children = (
+				D101D73A225AFCE100573382 /* KZWeChat */,
+				D101D739225AFCE100573382 /* Products */,
+				0A27688836E7BF04E7175FC5 /* Pods */,
+				113ECB42437DE690917A4134 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D101D739225AFCE100573382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D101D738225AFCE100573382 /* KZWeChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D101D73A225AFCE100573382 /* KZWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				D145294D2272A23B00FBF7D0 /* KZWeChat.entitlements */,
+				D101D749225AFCE200573382 /* Info.plist */,
+				D1FCCC17225C71EB0065C5A5 /* Login */,
+				D10E26FD225D9F4400588B9D /* Message */,
+				D10E26F0225D926C00588B9D /* Setting */,
+				D1FCCC21225C73C70065C5A5 /* WCLRecordVideo */,
+				D1FCCC19225C72320065C5A5 /* MatchingHall */,
+				D1FCCC18225C721E0065C5A5 /* Profile */,
+				D101D767225B497600573382 /* Tools */,
+				D101D763225B413700573382 /* CommonView */,
+				D101D759225B1C6F00573382 /* Category */,
+				D101D751225B137600573382 /* Config */,
+				D1FCCC1A225C72560065C5A5 /* Support */,
+			);
+			path = KZWeChat;
+			sourceTree = "<group>";
+		};
+		D101D751225B137600573382 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D101D752225B137600573382 /* KZCommonMacros.h */,
+				D101D753225B137600573382 /* KZUtilsMacros.h */,
+				D101D754225B137600573382 /* KZURLMacros.h */,
+				D101D755225B148300573382 /* KZWeChat.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D101D759225B1C6F00573382 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1F464226F1A450048A928 /* NSDate+Utils.h */,
+				D1E1F463226F1A450048A928 /* NSDate+Utils.m */,
+				D14146E7226AEE4D00FEFCF8 /* UIColor+Utils.h */,
+				D14146E8226AEE4D00FEFCF8 /* UIColor+Utils.m */,
+				D14146E5226AEDF600FEFCF8 /* UIImage+Utils.h */,
+				D14146E4226AEDF600FEFCF8 /* UIImage+Utils.m */,
+				D1FCCC11225C4A950065C5A5 /* UIView+Toast.h */,
+				D1FCCC12225C4A950065C5A5 /* UIView+Toast.m */,
+				D101D75B225B1C6F00573382 /* UIView+Frame.h */,
+				D101D75A225B1C6F00573382 /* UIView+Frame.m */,
+				D14529532272D2AB00FBF7D0 /* UIButton+ButtonClick.h */,
+				D14529542272D2AC00FBF7D0 /* UIButton+ButtonClick.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D101D763225B413700573382 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				D14A25AD22700DC60010F6BD /* KZPickerView */,
+				D1E1F46C226F3DD10048A928 /* DApickerView.h */,
+				D1E1F46D226F3DD10048A928 /* DApickerView.m */,
+				D1E1F467226F37C60048A928 /* ActionSheetView.h */,
+				D1E1F466226F37C60048A928 /* ActionSheetView.m */,
+				D1416141226A139000B4345C /* KZPTextFieldView.h */,
+				D1416140226A139000B4345C /* KZPTextFieldView.m */,
+				D1FCCC1F225C73A80065C5A5 /* WCLRecordProgressView.h */,
+				D1FCCC1E225C73A80065C5A5 /* WCLRecordProgressView.m */,
+				D101D765225B414F00573382 /* AuthcodeView.h */,
+				D101D764225B414F00573382 /* AuthcodeView.m */,
+				D10E2701225DB90D00588B9D /* KZRecordBtn.h */,
+				D10E2702225DB90D00588B9D /* KZRecordBtn.m */,
+				D1FAA5F82268AC13002638BF /* KZBannerView.h */,
+				D1FAA5F92268AC13002638BF /* KZBannerView.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		D101D767225B497600573382 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D1414701226B0CBE00FEFCF8 /* KeychainItemWrapper */,
+				D13E9737226C20610073CC6D /* EncryptionTools.h */,
+				D13E9738226C20620073CC6D /* EncryptionTools.m */,
+				D14146FE226B0C7D00FEFCF8 /* KZAppManager.h */,
+				D14146FF226B0C7D00FEFCF8 /* KZAppManager.m */,
+				D14095362269ACC300203D8F /* KZNetworkManager.h */,
+				D14095352269ACC200203D8F /* KZNetworkManager.m */,
+				D101D768225B499000573382 /* KZUtils.h */,
+				D101D769225B499000573382 /* KZUtils.m */,
+				D1E1F46A226F385A0048A928 /* FDCameraManager.h */,
+				D1E1F469226F385A0048A928 /* FDCameraManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D10E26F0225D926C00588B9D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				D10E26F1225D929600588B9D /* KZSettingViewController.h */,
+				D10E26F2225D929600588B9D /* KZSettingViewController.m */,
+				D10E26F4225D9BFD00588B9D /* KZChangePasswordVC.h */,
+				D10E26F5225D9BFD00588B9D /* KZChangePasswordVC.m */,
+				D1FAA5ED22687056002638BF /* KZChangePasswordVC.xib */,
+				D10E26F7225D9DA600588B9D /* KZSuggestViewController.h */,
+				D10E26F8225D9DA600588B9D /* KZSuggestViewController.m */,
+				D1E1F439226EA45A0048A928 /* KZSuggestViewController.xib */,
+				D10E26FA225D9E5000588B9D /* KZAboutViewController.h */,
+				D10E26FB225D9E5000588B9D /* KZAboutViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		D10E26FD225D9F4400588B9D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				D13E802322735D6300DE7BDE /* TalkViewModel */,
+				D1869B432270667E000FF623 /* ToolBarView */,
+				D10E26FE225D9F5700588B9D /* KZMessageController.h */,
+				D10E26FF225D9F5700588B9D /* KZMessageController.m */,
+				D1FAA5F022687820002638BF /* KZMeaageCell.h */,
+				D1FAA5F122687820002638BF /* KZMeaageCell.m */,
+				D1FAA5F322689C71002638BF /* KZTalkViewController.h */,
+				D1FAA5F422689C71002638BF /* KZTalkViewController.m */,
+				D1FAA5F522689C71002638BF /* KZTalkViewController.xib */,
+				D1E1F43B226EED020048A928 /* KZTalkViewCell.h */,
+				D1E1F43C226EED020048A928 /* KZTalkViewCell.m */,
+				D1E1F43D226EED020048A928 /* KZTalkViewCell.xib */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		D13E802322735D6300DE7BDE /* TalkViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D13E804222735DD600DE7BDE /* me.png */,
+				D13E803022735DC300DE7BDE /* ConstantPart.h */,
+				D13E803222735DC300DE7BDE /* CSBigView.h */,
+				D13E803522735DC300DE7BDE /* CSBigView.m */,
+				D13E803822735DC300DE7BDE /* CSEmojiCollectionViewCell.h */,
+				D13E803A22735DC400DE7BDE /* CSEmojiCollectionViewCell.m */,
+				D13E802D22735DC300DE7BDE /* CSMessageCell.h */,
+				D13E803622735DC300DE7BDE /* CSMessageCell.m */,
+				D13E803122735DC300DE7BDE /* CSMessageModel.h */,
+				D13E802F22735DC300DE7BDE /* CSMessageModel.m */,
+				D13E803722735DC300DE7BDE /* CSRecord.h */,
+				D13E803422735DC300DE7BDE /* CSRecord.m */,
+				D13E803922735DC400DE7BDE /* EmojiView.h */,
+				D13E803322735DC300DE7BDE /* EmojiView.m */,
+				D13E802E22735DC300DE7BDE /* other.png */,
+				D13E802722735D9A00DE7BDE /* UIImage+Han.h */,
+				D13E802822735D9A00DE7BDE /* UIImage+Han.m */,
+				D13E802922735D9A00DE7BDE /* UILabel+Han.h */,
+				D13E802A22735D9B00DE7BDE /* UILabel+Han.m */,
+				D13A70BE2273D84700C04CCA /* KZChatViewController.h */,
+				D13A70BD2273D84600C04CCA /* KZChatViewController.m */,
+				D13A70C02273D88700C04CCA /* KZChatViewController.xib */,
+			);
+			path = TalkViewModel;
+			sourceTree = "<group>";
+		};
+		D13E973D226C38C30073CC6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D13E973A226C38B70073CC6D /* KZUser.h */,
+				D13E973B226C38B70073CC6D /* KZUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1414701226B0CBE00FEFCF8 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				D1414702226B0CBE00FEFCF8 /* KeychainItemWrapper.m */,
+				D1414703226B0CBE00FEFCF8 /* KeychainItemWrapper.h */,
+			);
+			path = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		D14A25AD22700DC60010F6BD /* KZPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				D14A25AE22700E240010F6BD /* DatePickerTool.h */,
+				D14A25B222700E240010F6BD /* DatePickerTool.m */,
+				D14A25B122700E240010F6BD /* DatePickerTool.xib */,
+				D14A25B022700E240010F6BD /* SexPickerTool.h */,
+				D14A25B322700E240010F6BD /* SexPickerTool.m */,
+				D14A25AF22700E240010F6BD /* SexPickerTool.xib */,
+			);
+			path = KZPickerView;
+			sourceTree = "<group>";
+		};
+		D1869B432270667E000FF623 /* ToolBarView */ = {
+			isa = PBXGroup;
+			children = (
+				D1869B452270667E000FF623 /* YZChatToolBarView.h */,
+				D1869B492270667E000FF623 /* YZChatToolBarView.m */,
+			);
+			path = ToolBarView;
+			sourceTree = "<group>";
+		};
+		D1E1F440226F0B2F0048A928 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				D13A70C72273FB7C00C04CCA /* m.png */,
+				D13A70C62273FB7C00C04CCA /* w.png */,
+				D13A70C32273F4E100C04CCA /* me.png */,
+				D13A70C22273F4E100C04CCA /* other.png */,
+				D13E802122732D3F00DE7BDE /* tanchuang.png */,
+				D1E1F442226F0B2F0048A928 /* SenderAppNodeBkg_HL@2x.png */,
+				D1E1F443226F0B2F0048A928 /* ReceiverTextNodeBkg.png */,
+				D1E1F444226F0B2F0048A928 /* ReceiverTextNodeBkg@2x.png */,
+				D1E1F445226F0B2F0048A928 /* SenderVoiceNodeDownloading@2x.png */,
+				D1E1F446226F0B2F0048A928 /* ReceiverVoiceNodeDownloading@2x.png */,
+				D1E1F448226F0B2F0048A928 /* SenderVoiceNodeDownloading.png */,
+				D1E1F44A226F0B2F0048A928 /* ReceiverVoiceNodeDownloading.png */,
+				D1E1F44E226F0B2F0048A928 /* SenderAppNodeBkg_HL.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D1FCCC17225C71EB0065C5A5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D13E973D226C38C30073CC6D /* Model */,
+				D101D73E225AFCE100573382 /* ViewController.h */,
+				D101D73F225AFCE100573382 /* ViewController.m */,
+				D101D756225B19DF00573382 /* KZLoginViewController.h */,
+				D101D757225B19DF00573382 /* KZLoginViewController.m */,
+				D101D760225B324800573382 /* KZRegisterController.h */,
+				D101D761225B324800573382 /* KZRegisterController.m */,
+				D14146E1226AEC7700FEFCF8 /* KZAgreementController.h */,
+				D14146E2226AEC7700FEFCF8 /* KZAgreementController.m */,
+				D14978212263167200FDC569 /* KZBaseViewController.h */,
+				D14978222263167200FDC569 /* KZBaseViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D1FCCC18225C721E0065C5A5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCCC0E225C3BFD0065C5A5 /* KZPersonInfoController.h */,
+				D1FCCC0F225C3BFD0065C5A5 /* KZPersonInfoController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D1FCCC19225C72320065C5A5 /* MatchingHall */ = {
+			isa = PBXGroup;
+			children = (
+				D13F1388225B85FA003010A1 /* KZMatchingHallController.h */,
+				D13F1389225B85FA003010A1 /* KZMatchingHallController.m */,
+				D13D66FD2271F2B900E7F4C8 /* KZCardView.h */,
+				D13D66FE2271F2B900E7F4C8 /* KZCardView.m */,
+			);
+			path = MatchingHall;
+			sourceTree = "<group>";
+		};
+		D1FCCC1A225C72560065C5A5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D1E1F440226F0B2F0048A928 /* image */,
+				D14146FB226AF6EE00FEFCF8 /* Localizable.strings */,
+				D14146F4226AF50F00FEFCF8 /* InfoPlist.strings */,
+				D101D741225AFCE100573382 /* Main.storyboard */,
+				D101D73B225AFCE100573382 /* AppDelegate.h */,
+				D101D73C225AFCE100573382 /* AppDelegate.m */,
+				D101D744225AFCE200573382 /* Assets.xcassets */,
+				D101D746225AFCE200573382 /* LaunchScreen.storyboard */,
+				D101D74A225AFCE200573382 /* main.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D1FCCC21225C73C70065C5A5 /* WCLRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCCC2C225C838E0065C5A5 /* KZRecordVideoController.h */,
+				D1FCCC2D225C838E0065C5A5 /* KZRecordVideoController.m */,
+				D1FCCC2E225C838E0065C5A5 /* KZRecordVideoController.xib */,
+				D1FCCC22225C73C70065C5A5 /* WCLRecordEncoder */,
+				D1FCCC25225C73C70065C5A5 /* WCLRecordEngine */,
+			);
+			path = WCLRecordVideo;
+			sourceTree = "<group>";
+		};
+		D1FCCC22225C73C70065C5A5 /* WCLRecordEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCCC23225C73C70065C5A5 /* WCLRecordEncoder.h */,
+				D1FCCC24225C73C70065C5A5 /* WCLRecordEncoder.m */,
+			);
+			path = WCLRecordEncoder;
+			sourceTree = "<group>";
+		};
+		D1FCCC25225C73C70065C5A5 /* WCLRecordEngine */ = {
+			isa = PBXGroup;
+			children = (
+				D1FCCC26225C73C70065C5A5 /* WCLRecordEngine.h */,
+				D1FCCC27225C73C70065C5A5 /* WCLRecordEngine.m */,
+			);
+			path = WCLRecordEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D101D737225AFCE100573382 /* KZWeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D101D74E225AFCE200573382 /* Build configuration list for PBXNativeTarget "KZWeChat" */;
+			buildPhases = (
+				82FC76CCDB2EC6DA5C6B2C90 /* [CP] Check Pods Manifest.lock */,
+				D101D734225AFCE100573382 /* Sources */,
+				D101D735225AFCE100573382 /* Frameworks */,
+				D101D736225AFCE100573382 /* Resources */,
+				36D2C0321F52E62A27287956 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZWeChat;
+			productName = KZWeChat;
+			productReference = D101D738225AFCE100573382 /* KZWeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D101D730225AFCE100573382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KZ;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = duia;
+				TargetAttributes = {
+					D101D737225AFCE100573382 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D101D733225AFCE100573382 /* Build configuration list for PBXProject "KZWeChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"en-GB",
+				"en-AU",
+				"zh-Hans",
+			);
+			mainGroup = D101D72F225AFCE100573382;
+			productRefGroup = D101D739225AFCE100573382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D101D737225AFCE100573382 /* KZWeChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D101D736225AFCE100573382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13E804322735DD600DE7BDE /* me.png in Resources */,
+				D1FAA5F722689C71002638BF /* KZTalkViewController.xib in Resources */,
+				D13E802222732D3F00DE7BDE /* tanchuang.png in Resources */,
+				D14146F2226AF50F00FEFCF8 /* InfoPlist.strings in Resources */,
+				D14146F9226AF6EE00FEFCF8 /* Localizable.strings in Resources */,
+				D101D748225AFCE200573382 /* LaunchScreen.storyboard in Resources */,
+				D1FAA5EE22687056002638BF /* KZChangePasswordVC.xib in Resources */,
+				D1E1F45F226F0B2F0048A928 /* SenderAppNodeBkg_HL.png in Resources */,
+				D1E1F459226F0B2F0048A928 /* SenderVoiceNodeDownloading.png in Resources */,
+				D101D745225AFCE200573382 /* Assets.xcassets in Resources */,
+				D101D743225AFCE100573382 /* Main.storyboard in Resources */,
+				D13E803B22735DC400DE7BDE /* other.png in Resources */,
+				D1E1F456226F0B2F0048A928 /* SenderVoiceNodeDownloading@2x.png in Resources */,
+				D13A70C52273F4E200C04CCA /* me.png in Resources */,
+				D13A70C12273D88700C04CCA /* KZChatViewController.xib in Resources */,
+				D13A70C42273F4E200C04CCA /* other.png in Resources */,
+				D1E1F455226F0B2F0048A928 /* ReceiverTextNodeBkg@2x.png in Resources */,
+				D1E1F45B226F0B2F0048A928 /* ReceiverVoiceNodeDownloading.png in Resources */,
+				D1E1F43F226EED020048A928 /* KZTalkViewCell.xib in Resources */,
+				D1E1F43A226EA45B0048A928 /* KZSuggestViewController.xib in Resources */,
+				D1FCCC30225C838E0065C5A5 /* KZRecordVideoController.xib in Resources */,
+				D1E1F454226F0B2F0048A928 /* ReceiverTextNodeBkg.png in Resources */,
+				D14A25B522700E240010F6BD /* DatePickerTool.xib in Resources */,
+				D1E1F453226F0B2F0048A928 /* SenderAppNodeBkg_HL@2x.png in Resources */,
+				D13A70C82273FB7C00C04CCA /* w.png in Resources */,
+				D13A70C92273FB7C00C04CCA /* m.png in Resources */,
+				D1E1F457226F0B2F0048A928 /* ReceiverVoiceNodeDownloading@2x.png in Resources */,
+				D14A25B422700E240010F6BD /* SexPickerTool.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D2C0321F52E62A27287956 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KZWeChat/Pods-KZWeChat-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KZWeChat/Pods-KZWeChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82FC76CCDB2EC6DA5C6B2C90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KZWeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D101D734225AFCE100573382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101D740225AFCE100573382 /* ViewController.m in Sources */,
+				D10E26F6225D9BFD00588B9D /* KZChangePasswordVC.m in Sources */,
+				D1869B4C2270667E000FF623 /* YZChatToolBarView.m in Sources */,
+				D1FCCC10225C3BFD0065C5A5 /* KZPersonInfoController.m in Sources */,
+				D1E1F46B226F385A0048A928 /* FDCameraManager.m in Sources */,
+				D14A25B622700E240010F6BD /* DatePickerTool.m in Sources */,
+				D13E9739226C20620073CC6D /* EncryptionTools.m in Sources */,
+				D1FCCC29225C73C70065C5A5 /* WCLRecordEngine.m in Sources */,
+				D14095372269ACC300203D8F /* KZNetworkManager.m in Sources */,
+				D1E1F465226F1A450048A928 /* NSDate+Utils.m in Sources */,
+				D10E26FC225D9E5000588B9D /* KZAboutViewController.m in Sources */,
+				D1FAA5F222687820002638BF /* KZMeaageCell.m in Sources */,
+				D13E803F22735DC400DE7BDE /* CSBigView.m in Sources */,
+				D1E1F468226F37C60048A928 /* ActionSheetView.m in Sources */,
+				D13A70BF2273D84700C04CCA /* KZChatViewController.m in Sources */,
+				D1414700226B0C7D00FEFCF8 /* KZAppManager.m in Sources */,
+				D14A25B722700E240010F6BD /* SexPickerTool.m in Sources */,
+				D13E802C22735D9B00DE7BDE /* UILabel+Han.m in Sources */,
+				D1FCCC2F225C838E0065C5A5 /* KZRecordVideoController.m in Sources */,
+				D1E1F43E226EED020048A928 /* KZTalkViewCell.m in Sources */,
+				D1FCCC28225C73C70065C5A5 /* WCLRecordEncoder.m in Sources */,
+				D1FAA5F622689C71002638BF /* KZTalkViewController.m in Sources */,
+				D14978232263167200FDC569 /* KZBaseViewController.m in Sources */,
+				D1414704226B0CBE00FEFCF8 /* KeychainItemWrapper.m in Sources */,
+				D101D74B225AFCE200573382 /* main.m in Sources */,
+				D13E803C22735DC400DE7BDE /* CSMessageModel.m in Sources */,
+				D10E26F3225D929600588B9D /* KZSettingViewController.m in Sources */,
+				D101D76A225B499000573382 /* KZUtils.m in Sources */,
+				D1FCCC20225C73A80065C5A5 /* WCLRecordProgressView.m in Sources */,
+				D14146E3226AEC7700FEFCF8 /* KZAgreementController.m in Sources */,
+				D13E973C226C38B70073CC6D /* KZUser.m in Sources */,
+				D10E2703225DB90D00588B9D /* KZRecordBtn.m in Sources */,
+				D101D766225B414F00573382 /* AuthcodeView.m in Sources */,
+				D1FCCC13225C4A950065C5A5 /* UIView+Toast.m in Sources */,
+				D14529552272D2AC00FBF7D0 /* UIButton+ButtonClick.m in Sources */,
+				D13E802B22735D9B00DE7BDE /* UIImage+Han.m in Sources */,
+				D101D758225B19DF00573382 /* KZLoginViewController.m in Sources */,
+				D13E804122735DC400DE7BDE /* CSEmojiCollectionViewCell.m in Sources */,
+				D1416142226A139000B4345C /* KZPTextFieldView.m in Sources */,
+				D1FAA5FA2268AC13002638BF /* KZBannerView.m in Sources */,
+				D13F138A225B85FA003010A1 /* KZMatchingHallController.m in Sources */,
+				D101D75C225B1C6F00573382 /* UIView+Frame.m in Sources */,
+				D13E804022735DC400DE7BDE /* CSMessageCell.m in Sources */,
+				D101D73D225AFCE100573382 /* AppDelegate.m in Sources */,
+				D14146E9226AEE4D00FEFCF8 /* UIColor+Utils.m in Sources */,
+				D10E2700225D9F5700588B9D /* KZMessageController.m in Sources */,
+				D13D66FF2271F2B900E7F4C8 /* KZCardView.m in Sources */,
+				D14146E6226AEDF600FEFCF8 /* UIImage+Utils.m in Sources */,
+				D10E26F9225D9DA600588B9D /* KZSuggestViewController.m in Sources */,
+				D101D762225B324800573382 /* KZRegisterController.m in Sources */,
+				D1E1F46E226F3DD10048A928 /* DApickerView.m in Sources */,
+				D13E803E22735DC400DE7BDE /* CSRecord.m in Sources */,
+				D13E803D22735DC400DE7BDE /* EmojiView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D101D741225AFCE100573382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D101D742225AFCE100573382 /* Base */,
+				D14146EA226AF37C00FEFCF8 /* en-GB */,
+				D14146EC226AF3B200FEFCF8 /* en-AU */,
+				D14146EE226AF3BB00FEFCF8 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D101D746225AFCE200573382 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D101D747225AFCE200573382 /* Base */,
+				D14146EB226AF37C00FEFCF8 /* en-GB */,
+				D14146ED226AF3B200FEFCF8 /* en-AU */,
+				D14146EF226AF3BB00FEFCF8 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D14146F4226AF50F00FEFCF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14146F3226AF50F00FEFCF8 /* en-GB */,
+				D14146F5226AF53E00FEFCF8 /* en-AU */,
+				D14146F6226AF53F00FEFCF8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D14146FB226AF6EE00FEFCF8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14146FA226AF6EE00FEFCF8 /* en-GB */,
+				D14146FC226AF6F300FEFCF8 /* en-AU */,
+				D14146FD226AF6F500FEFCF8 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D101D74C225AFCE200573382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D101D74D225AFCE200573382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D101D74F225AFCE200573382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A22E56F586D5A4B06B5540F /* Pods-KZWeChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z634YF9GQ3;
+				GCC_PREFIX_HEADER = KZWeChat/Config/KZWeChat.pch;
+				INFOPLIST_FILE = KZWeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liaobei.com.KZWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D101D750225AFCE200573382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3D18718614E9E16D1A1C66 /* Pods-KZWeChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z634YF9GQ3;
+				GCC_PREFIX_HEADER = KZWeChat/Config/KZWeChat.pch;
+				INFOPLIST_FILE = KZWeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liaobei.com.KZWeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D101D733225AFCE100573382 /* Build configuration list for PBXProject "KZWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D101D74C225AFCE200573382 /* Debug */,
+				D101D74D225AFCE200573382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D101D74E225AFCE200573382 /* Build configuration list for PBXNativeTarget "KZWeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D101D74F225AFCE200573382 /* Debug */,
+				D101D750225AFCE200573382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D101D730225AFCE100573382 /* Project object */;
+}

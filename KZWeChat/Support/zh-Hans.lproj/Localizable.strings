@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  KZWeChat
+
+  Created by weiguang on 2019/4/20.
+  Copyright © 2019 duia. All rights reserved.
+*/
+"LoginButtonText"="登录";
+"LabelText"="现在系统的语言是中文";

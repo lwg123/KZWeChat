@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KZSuggestViewController">
+            <connections>
+                <outlet property="submitBtn" destination="TrP-XX-pbH" id="tOG-La-dAP"/>
+                <outlet property="suggestTextView" destination="Tum-3a-bYa" id="GBm-HC-0Ja"/>
+                <outlet property="topConst" destination="KQ6-UC-Xni" id="KzE-ff-4h6"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Dxv-bZ-61P"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Tum-3a-bYa">
+                    <rect key="frame" x="20" y="64" width="374" height="184"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="184" id="dbV-Bu-rsp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrP-XX-pbH">
+                    <rect key="frame" x="30" y="278" width="354" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="xVY-kf-Z9F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <state key="normal" title="提交" backgroundImage="矩形3"/>
+                    <connections>
+                        <action selector="submitBtnClick:" destination="-1" eventType="touchUpInside" id="YRt-P5-Evs"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="TrP-XX-pbH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="Hp5-9r-epE"/>
+                <constraint firstAttribute="trailing" secondItem="Tum-3a-bYa" secondAttribute="trailing" constant="20" id="Hpv-XU-Cxa"/>
+                <constraint firstItem="Tum-3a-bYa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="KQ6-UC-Xni"/>
+                <constraint firstAttribute="trailing" secondItem="TrP-XX-pbH" secondAttribute="trailing" constant="30" id="V7z-1v-SbA"/>
+                <constraint firstItem="Tum-3a-bYa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="e3r-qH-MZD"/>
+                <constraint firstItem="TrP-XX-pbH" firstAttribute="top" secondItem="Tum-3a-bYa" secondAttribute="bottom" constant="30" id="s8a-7Y-VbD"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="118.52678571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="矩形3" width="300" height="45"/>
+    </resources>
+</document>
